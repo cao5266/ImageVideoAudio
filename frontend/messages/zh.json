@@ -1,0 +1,246 @@
+{
+    "common": {
+        "welcome": "欢迎",
+        "loading": "加载中...",
+        "error": "错误",
+        "success": "成功",
+        "confirm": "确认",
+        "cancel": "取消",
+        "save": "保存",
+        "delete": "删除",
+        "edit": "编辑",
+        "submit": "提交",
+        "back": "返回",
+        "next": "下一步",
+        "previous": "上一步",
+        "search": "搜索",
+        "filter": "筛选",
+        "download": "下载",
+        "upload": "上传"
+    },
+    "nav": {
+        "home": "首页",
+        "dashboard": "仪表板",
+        "login": "登录",
+        "register": "注册",
+        "logout": "退出登录",
+        "profile": "个人设置",
+        "videoProcess": "视频处理",
+        "imageProcess": "图片处理",
+        "audioProcess": "音频处理",
+        "history": "处理历史"
+    },
+    "auth": {
+        "loginTitle": "欢迎回来",
+        "loginSubtitle": "登录您的账户",
+        "registerTitle": "创建账户",
+        "registerSubtitle": "注册新账户",
+        "email": "邮箱地址",
+        "emailPlaceholder": "your@email.com",
+        "password": "密码",
+        "passwordPlaceholder": "••••••••",
+        "name": "姓名",
+        "namePlaceholder": "请输入您的姓名",
+        "loginButton": "登录",
+        "registerButton": "注册",
+        "loginWithGoogle": "使用 Google 账号登录",
+        "orDivider": "或",
+        "noAccount": "还没有账户？",
+        "hasAccount": "已有账户？",
+        "signUpNow": "立即注册",
+        "signInNow": "立即登录",
+        "backToHome": "返回首页",
+        "loggingIn": "登录中...",
+        "registering": "注册中...",
+        "verifying": "正在验证登录...",
+        "errors": {
+            "emailRequired": "请输入邮箱地址",
+            "emailInvalid": "请输入有效的邮箱地址",
+            "passwordRequired": "请输入密码",
+            "passwordMin": "密码至少6个字符",
+            "nameRequired": "请输入姓名",
+            "loginFailed": "登录失败，请重试",
+            "registerFailed": "注册失败，请重试"
+        }
+    },
+    "dashboard": {
+        "title": "欢迎回来",
+        "subtitle": "选择您需要的功能开始处理文件",
+        "features": {
+            "video": {
+                "title": "视频处理",
+                "description": "格式转换、压缩、裁剪、合并等"
+            },
+            "image": {
+                "title": "图片处理",
+                "description": "格式转换、调整大小、压缩等"
+            },
+            "history": {
+                "title": "处理历史",
+                "description": "查看和下载处理结果"
+            },
+            "batch": {
+                "title": "快速处理",
+                "description": "批量处理文件"
+            }
+        },
+        "stats": {
+            "title": "快速统计",
+            "today": "今日处理",
+            "month": "本月处理",
+            "total": "总处理数"
+        },
+        "tips": {
+            "title": "使用提示",
+            "tip1": "支持拖拽上传文件，更加便捷",
+            "tip2": "处理完成后文件保留24小时，请及时下载",
+            "tip3": "建议使用 WiFi 网络上传大文件",
+            "tip4": "移动端同样支持所有功能"
+        }
+    },
+    "fileUploader": {
+        "dragActive": "释放文件以上传...",
+        "dragInactive": "拖拽文件到此处，或点击选择文件",
+        "maxSize": "最大文件大小",
+        "uploading": "上传中...",
+        "uploadedFiles": "已上传文件",
+        "error": "上传失败，请重试"
+    },
+    "imageProcess": {
+        "title": "图片处理",
+        "uploadStep": "上传图片",
+        "selectTypeStep": "选择处理类型",
+        "optionsStep": "设置参数",
+        "types": {
+            "convert": "格式转换",
+            "resize": "调整大小"
+        },
+        "options": {
+            "outputFormat": "输出格式",
+            "width": "宽度 (像素)",
+            "widthPlaceholder": "800",
+            "height": "高度 (像素)",
+            "heightPlaceholder": "600",
+            "scale": "或按比例缩放 (%)",
+            "scalePlaceholder": "50",
+            "scaleHint": "例如：50 表示缩放到原来的50%",
+            "quality": "质量 (1-100)"
+        },
+        "processing": "处理中...",
+        "startProcess": "开始处理",
+        "processComplete": "处理完成！",
+        "processCompleteDesc": "图片已成功处理，点击下方按钮下载结果",
+        "downloadResult": "下载处理结果",
+        "errors": {
+            "uploadFirst": "请先上传文件",
+            "processFailed": "处理失败，请重试",
+            "downloadFailed": "下载失败，请重试"
+        }
+    },
+    "videoProcess": {
+        "title": "视频处理",
+        "uploadStep": "上传视频",
+        "selectTypeStep": "选择处理类型",
+        "optionsStep": "设置参数",
+        "types": {
+            "convert": "格式转换",
+            "compress": "压缩视频",
+            "trim": "裁剪视频",
+            "merge": "合并视频",
+            "extractAudio": "提取音频",
+            "gif": "转换为GIF"
+        },
+        "options": {
+            "outputFormat": "输出格式",
+            "quality": "质量",
+            "qualityHigh": "高",
+            "qualityMedium": "中",
+            "qualityLow": "低",
+            "startTime": "开始时间 (秒)",
+            "endTime": "结束时间 (秒)",
+            "targetSize": "目标大小 (MB)"
+        },
+        "processing": "处理中...",
+        "startProcess": "开始处理",
+        "processComplete": "处理完成！",
+        "processCompleteDesc": "视频已成功处理，点击下方按钮下载结果",
+        "downloadResult": "下载处理结果",
+        "errors": {
+            "uploadFirst": "请先上传文件",
+            "processFailed": "处理失败，请重试",
+            "downloadFailed": "下载失败，请重试"
+        }
+    },
+    "history": {
+        "title": "处理历史",
+        "description": "查看所有处理记录",
+        "loading": "加载中...",
+        "empty": "暂无处理记录",
+        "emptyDesc": "开始处理文件后，记录将显示在这里",
+        "columns": {
+            "file": "文件",
+            "type": "类型",
+            "status": "状态",
+            "date": "日期",
+            "actions": "操作"
+        },
+        "status": {
+            "processing": "处理中",
+            "completed": "已完成",
+            "failed": "失败"
+        },
+        "download": "下载",
+        "delete": "删除",
+        "errors": {
+            "loadFailed": "加载失败",
+            "deleteFailed": "删除失败"
+        }
+    },
+    "profile": {
+        "title": "个人设置",
+        "accountInfo": "账户信息",
+        "email": "邮箱",
+        "registeredAt": "注册时间",
+        "settings": "设置",
+        "language": "语言",
+        "theme": "主题",
+        "themeLight": "浅色",
+        "themeDark": "深色",
+        "themeSystem": "跟随系统",
+        "dangerZone": "危险区域",
+        "deleteAccount": "删除账户",
+        "deleteAccountWarning": "此操作不可逆，将删除您的所有数据"
+    },
+    "components": {
+        "demo": {
+            "title": "shadcn/ui 组件展示",
+            "subtitle": "预览所有已安装的组件",
+            "returnHome": "返回首页",
+            "buttons": {
+                "title": "按钮 (Buttons)",
+                "description": "不同样式和尺寸的按钮组件",
+                "default": "默认按钮",
+                "secondary": "次要按钮",
+                "destructive": "危险按钮",
+                "outline": "轮廓按钮",
+                "ghost": "幽灵按钮",
+                "link": "链接按钮",
+                "large": "大按钮",
+                "small": "小按钮"
+            },
+            "alerts": {
+                "title": "警告提示 (Alerts)",
+                "description": "用于显示重要信息的警告组件",
+                "info": "提示",
+                "infoDesc": "这是一条普通的提示信息。",
+                "error": "错误",
+                "errorDesc": "发生了一个错误，请重试。",
+                "success": "成功",
+                "successDesc": "操作已成功完成！"
+            },
+            "installComplete": "安装完成！",
+            "installCompleteDesc": "所有 shadcn/ui 组件已成功安装并可以使用。",
+            "viewDocs": "了解详细使用说明"
+        }
+    }
+}

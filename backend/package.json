@@ -1,0 +1,45 @@
+{
+    "name": "video-image-process-backend",
+    "version": "1.0.0",
+    "description": "FFmpeg video and image processing backend",
+    "main": "src/server.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "migrate": "node src/config/migrate.js",
+        "init-db": "node scripts/init-database.js",
+        "check-db": "node scripts/check-database.js",
+        "reset-db": "node scripts/reset-database.js",
+        "kill-port": "node scripts/kill-port.js"
+    },
+    "keywords": [
+        "ffmpeg",
+        "video",
+        "image",
+        "processing"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "mysql2": "^3.6.5",
+        "sequelize": "^6.35.2",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^9.0.2",
+        "passport": "^0.7.0",
+        "passport-google-oauth20": "^2.0.0",
+        "multer": "^1.4.5-lts.1",
+        "fluent-ffmpeg": "^2.1.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express-validator": "^7.0.1",
+        "uuid": "^9.0.1",
+        "express-rate-limit": "^7.1.5",
+        "helmet": "^7.1.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}

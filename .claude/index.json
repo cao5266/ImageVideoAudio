@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-10-29T01:06:48.000Z",
+  "modules": [
+    {
+      "name": "backend",
+      "path": "backend",
+      "type": "nodejs",
+      "entry": "src/server.js",
+      "interfaces": [
+        "src/routes/auth.js",
+        "src/routes/upload.js",
+        "src/routes/process.js"
+      ],
+      "dependencies": "package.json",
+      "dataModels": [
+        "src/models/User.js",
+        "src/models/ProcessingJob.js",
+        "src/models/RefreshToken.js"
+      ],
+      "services": [
+        "src/services/ffmpegService.js"
+      ],
+      "config": [
+        "src/config/database.js",
+        "src/config/passport.js"
+      ],
+      "scripts": [
+        "scripts/init-database.js",
+        "scripts/reset-database.js"
+      ],
+      "coverage": {
+        "totalFiles": 25,
+        "scannedFiles": 18,
+        "percentage": 72,
+        "missing": [
+          "test files",
+          "frontend components"
+        ]
+      }
+    },
+    {
+      "name": "frontend",
+      "path": "frontend",
+      "type": "nextjs",
+      "entry": "src/app/[locale]/layout.tsx",
+      "interfaces": [
+        "src/lib/api.ts"
+      ],
+      "dependencies": "package.json",
+      "components": [
+        "src/components/ui/button.tsx",
+        "src/components/ui/input.tsx",
+        "src/components/ui/label.tsx"
+      ],
+      "pages": [
+        "src/app/[locale]/page.tsx",
+        "src/app/[locale]/login/page.tsx",
+        "src/app/[locale]/register/page.tsx"
+      ],
+      "coverage": {
+        "totalFiles": 35,
+        "scannedFiles": 12,
+        "percentage": 34,
+        "missing": [
+          "remaining pages",
+          "components",
+          "test files"
+        ]
+      }
+    }
+  ],
+  "rootDocuments": [
+    "README.md",
+    "PROJECT_SUMMARY.md",
+    "TESTING.md",
+    "DEPLOYMENT.md",
+    "QUICKSTART.md"
+  ],
+  "scanStats": {
+    "totalFiles": 60,
+    "scannedFiles": 30,
+    "coveragePercentage": 50,
+    "ignoredFiles": 30,
+    "truncated": false,
+    "scanLimits": {
+      "reason": "node_modules directories excluded",
+      "nextRecommendations": [
+        "Scan remaining frontend components and pages",
+        "Check for test files",
+        "Review configuration files"
+      ]
+    }
+  }
+}

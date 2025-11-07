@@ -1,0 +1,246 @@
+{
+    "common": {
+        "welcome": "Welcome",
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "submit": "Submit",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "search": "Search",
+        "filter": "Filter",
+        "download": "Download",
+        "upload": "Upload"
+    },
+    "nav": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "profile": "Profile",
+        "videoProcess": "Video Processing",
+        "imageProcess": "Image Processing",
+        "audioProcess": "Audio Processing",
+        "history": "History"
+    },
+    "auth": {
+        "loginTitle": "Welcome Back",
+        "loginSubtitle": "Sign in to your account",
+        "registerTitle": "Create Account",
+        "registerSubtitle": "Register a new account",
+        "email": "Email Address",
+        "emailPlaceholder": "your@email.com",
+        "password": "Password",
+        "passwordPlaceholder": "••••••••",
+        "name": "Name",
+        "namePlaceholder": "Enter your name",
+        "loginButton": "Sign In",
+        "registerButton": "Sign Up",
+        "loginWithGoogle": "Sign in with Google",
+        "orDivider": "OR",
+        "noAccount": "Don't have an account?",
+        "hasAccount": "Already have an account?",
+        "signUpNow": "Sign up now",
+        "signInNow": "Sign in now",
+        "backToHome": "Back to Home",
+        "loggingIn": "Signing in...",
+        "registering": "Registering...",
+        "verifying": "Verifying login...",
+        "errors": {
+            "emailRequired": "Email is required",
+            "emailInvalid": "Please enter a valid email",
+            "passwordRequired": "Password is required",
+            "passwordMin": "Password must be at least 6 characters",
+            "nameRequired": "Name is required",
+            "loginFailed": "Login failed, please try again",
+            "registerFailed": "Registration failed, please try again"
+        }
+    },
+    "dashboard": {
+        "title": "Welcome back",
+        "subtitle": "Choose the feature you need to start processing files",
+        "features": {
+            "video": {
+                "title": "Video Processing",
+                "description": "Convert, compress, trim, merge, and more"
+            },
+            "image": {
+                "title": "Image Processing",
+                "description": "Convert format, resize, compress, etc."
+            },
+            "history": {
+                "title": "Processing History",
+                "description": "View and download processing results"
+            },
+            "batch": {
+                "title": "Batch Processing",
+                "description": "Process multiple files at once"
+            }
+        },
+        "stats": {
+            "title": "Quick Stats",
+            "today": "Today",
+            "month": "This Month",
+            "total": "Total"
+        },
+        "tips": {
+            "title": "Tips",
+            "tip1": "Drag and drop files for easier uploading",
+            "tip2": "Files are kept for 24 hours after processing, please download in time",
+            "tip3": "Use WiFi for uploading large files",
+            "tip4": "All features are supported on mobile devices"
+        }
+    },
+    "fileUploader": {
+        "dragActive": "Drop the files here...",
+        "dragInactive": "Drag and drop files here, or click to select",
+        "maxSize": "Maximum file size",
+        "uploading": "Uploading...",
+        "uploadedFiles": "Uploaded Files",
+        "error": "Upload failed, please try again"
+    },
+    "imageProcess": {
+        "title": "Image Processing",
+        "uploadStep": "Upload Image",
+        "selectTypeStep": "Select Processing Type",
+        "optionsStep": "Set Parameters",
+        "types": {
+            "convert": "Format Conversion",
+            "resize": "Resize"
+        },
+        "options": {
+            "outputFormat": "Output Format",
+            "width": "Width (pixels)",
+            "widthPlaceholder": "800",
+            "height": "Height (pixels)",
+            "heightPlaceholder": "600",
+            "scale": "Or scale by percentage (%)",
+            "scalePlaceholder": "50",
+            "scaleHint": "E.g., 50 means scale to 50% of original",
+            "quality": "Quality (1-100)"
+        },
+        "processing": "Processing...",
+        "startProcess": "Start Processing",
+        "processComplete": "Processing Complete!",
+        "processCompleteDesc": "Image has been processed successfully, click the button below to download",
+        "downloadResult": "Download Result",
+        "errors": {
+            "uploadFirst": "Please upload a file first",
+            "processFailed": "Processing failed, please try again",
+            "downloadFailed": "Download failed, please try again"
+        }
+    },
+    "videoProcess": {
+        "title": "Video Processing",
+        "uploadStep": "Upload Video",
+        "selectTypeStep": "Select Processing Type",
+        "optionsStep": "Set Parameters",
+        "types": {
+            "convert": "Format Conversion",
+            "compress": "Compress Video",
+            "trim": "Trim Video",
+            "merge": "Merge Videos",
+            "extractAudio": "Extract Audio",
+            "gif": "Convert to GIF"
+        },
+        "options": {
+            "outputFormat": "Output Format",
+            "quality": "Quality",
+            "qualityHigh": "High",
+            "qualityMedium": "Medium",
+            "qualityLow": "Low",
+            "startTime": "Start Time (seconds)",
+            "endTime": "End Time (seconds)",
+            "targetSize": "Target Size (MB)"
+        },
+        "processing": "Processing...",
+        "startProcess": "Start Processing",
+        "processComplete": "Processing Complete!",
+        "processCompleteDesc": "Video has been processed successfully, click the button below to download",
+        "downloadResult": "Download Result",
+        "errors": {
+            "uploadFirst": "Please upload a file first",
+            "processFailed": "Processing failed, please try again",
+            "downloadFailed": "Download failed, please try again"
+        }
+    },
+    "history": {
+        "title": "Processing History",
+        "description": "View all processing records",
+        "loading": "Loading...",
+        "empty": "No processing records",
+        "emptyDesc": "Records will appear here after you start processing files",
+        "columns": {
+            "file": "File",
+            "type": "Type",
+            "status": "Status",
+            "date": "Date",
+            "actions": "Actions"
+        },
+        "status": {
+            "processing": "Processing",
+            "completed": "Completed",
+            "failed": "Failed"
+        },
+        "download": "Download",
+        "delete": "Delete",
+        "errors": {
+            "loadFailed": "Failed to load",
+            "deleteFailed": "Failed to delete"
+        }
+    },
+    "profile": {
+        "title": "Profile Settings",
+        "accountInfo": "Account Information",
+        "email": "Email",
+        "registeredAt": "Registered At",
+        "settings": "Settings",
+        "language": "Language",
+        "theme": "Theme",
+        "themeLight": "Light",
+        "themeDark": "Dark",
+        "themeSystem": "System",
+        "dangerZone": "Danger Zone",
+        "deleteAccount": "Delete Account",
+        "deleteAccountWarning": "This action cannot be undone. All your data will be deleted"
+    },
+    "components": {
+        "demo": {
+            "title": "shadcn/ui Components Demo",
+            "subtitle": "Preview all installed components",
+            "returnHome": "Back to Home",
+            "buttons": {
+                "title": "Buttons",
+                "description": "Button components with different styles and sizes",
+                "default": "Default",
+                "secondary": "Secondary",
+                "destructive": "Destructive",
+                "outline": "Outline",
+                "ghost": "Ghost",
+                "link": "Link",
+                "large": "Large",
+                "small": "Small"
+            },
+            "alerts": {
+                "title": "Alerts",
+                "description": "Alert components for displaying important information",
+                "info": "Info",
+                "infoDesc": "This is a normal information message.",
+                "error": "Error",
+                "errorDesc": "An error occurred, please try again.",
+                "success": "Success",
+                "successDesc": "Operation completed successfully!"
+            },
+            "installComplete": "Installation Complete!",
+            "installCompleteDesc": "All shadcn/ui components have been successfully installed and are ready to use.",
+            "viewDocs": "View detailed usage instructions"
+        }
+    }
+}
